@@ -8,10 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.neo.mapper")
 public class Application {
 
-	/**
-	 * 
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
